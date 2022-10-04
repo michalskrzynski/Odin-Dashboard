@@ -1,0 +1,49 @@
+.page-layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 120px 1fr;
+}
+
+.page-layout-grid div {
+  border: 1px solid red;
+}
+
+.sidebar {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.flexmenu {
+  display: flex;
+}
+
+.flexmenu.search-menu {
+  margin: 1rem;
+}
+
+.search-query {
+  width: 24rem;
+}
+
+.flexmenu.personal {
+  margin-left: auto;
+  width: 16rem;
+}
+
+.flexmenu.share-menu {
+  margin: 1rem;
+}
+
+.flexmenu.share-content {
+  margin-left: auto;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0;
+  color: white;
+  background-color: cornflowerblue;
+}
